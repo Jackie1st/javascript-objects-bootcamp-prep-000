@@ -2,8 +2,9 @@ var playlist = {
   artistName: 'songTitle'
 }
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = 'songTitle'
-  var updatePlaylist = {Slowdive: Alison}
+  this.playlist = playlist
+  this.artistName = Slowdive
+  this.songTitle = Alison
   return playlist
 }
 function removeFromPlaylist(playlistObject, artistName) {
