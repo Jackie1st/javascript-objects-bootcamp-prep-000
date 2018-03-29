@@ -7,7 +7,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
     'My Bloody Valentine': Sometimes,
     'Phil Ochs': 'Here\'s to you Mississippi'
 }
-function removeFromPlaylist(playlistObject, artistName) {
+function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
   return playlist;
 }
