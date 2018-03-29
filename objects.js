@@ -1,5 +1,7 @@
 var playlist = {
-  Slowdive: 'Alison'
+  Slowdive: 'Alison',
+  My Bloody Valentine: 'Sometimes',
+  Phil Och: 'Here\'s to you Mississippi'
 }
 function updatePlaylist(playlist, artistName, songTitle) {
   this.playlist = playlist
