@@ -1,5 +1,5 @@
 var playlist = {
-  artistName: 'songTitle'
+  Slowdive: 'Alison'
 }
 function updatePlaylist(playlist, artistName, songTitle) {
   this.playlist = playlist
